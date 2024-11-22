@@ -10,7 +10,5 @@ fn main() {
     println!("{additive}")
 
 }
- println!("{additive}");
- println!("{multiplier}");
- println!("{x}");
+
 }
