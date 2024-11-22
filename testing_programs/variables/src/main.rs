@@ -1,10 +1,16 @@
 fn main() {
-    let mut x = 3;
+ let mut x = 3;
 {
-    x = x * 3;
-    x  = x - 2;
-    println!("{x}");
- }
+    let multiplier = x * x;
+    println!("{multiplier}");
+}
  x = 1;
- println!("{x}")
+{
+    let additive = x + x + x;
+    println!("{additive}")
+
+}
+ println!("{additive}");
+ println!("{multiplier}");
+ println!("{x}");
 }
